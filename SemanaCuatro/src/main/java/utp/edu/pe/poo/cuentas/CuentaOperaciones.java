@@ -68,7 +68,7 @@ public class CuentaOperaciones {
                 break;
              case 5:                   
                 System.out.println("Saldo disponible S/: " 
-                        +cliente.getCuenta().getMonto());               
+                        +cliente.getCuenta().getSaldo());               
                 break;
             case 6:                   
                 apagado=false;
